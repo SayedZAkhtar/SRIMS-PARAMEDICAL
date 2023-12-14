@@ -560,7 +560,7 @@ section,
 	float: left;
 	width: 100%;
 	padding:22px 0;
-	max-width: 27%; 
+	max-width: 33%;
 }
 .logo_wrap2 p{
 	display: block;
@@ -603,10 +603,10 @@ section,
 .nav_2 ul li a{
     display: block;
     color: #ffffff;
-    font-size: 11px;
+    font-size:  15px;
     text-transform: uppercase;
     font-weight: 700;
-    padding: 10px 7px;
+    padding: 10px 14px;
     position: relative;
     z-index: 2;
 	font-family: 'Poppins', sans-serif;
@@ -922,7 +922,7 @@ section,
 	text-transform: uppercase;
 	color: #fff;
 	margin-bottom: 13px;
-	font-size: 48px;
+	font-size: 37px;
 	font-family: 'Poppins', sans-serif;
 
 }
@@ -2263,10 +2263,14 @@ section,
 /*NEWS AND EVENT SECTION END */
 /*EDU TRAINING SECTION START */
 .edu2_tarining_bg{
-	background-image: url(images/training-bg2.jpg);
+	
 	position: relative;
 	overflow:visible;
 	min-height:500px;
+	background-color: #4291b4;
+	height: 100px;
+	
+	
 }
 .edu2_tarining_bg:before{
 	content: "";
@@ -2275,8 +2279,10 @@ section,
     top: 0;
     bottom: 0;
     position: absolute;
-    background-color: #203559b3;
+	background-color: #13214a;
     opacity: 0.85;
+	
+	
 }
 .kf_edu2_training_des{
 	float:left;
@@ -2302,7 +2308,7 @@ section,
     float: left;
     text-align: left;
     width: 100%;
-    margin-top: -11px;
+    margin-top: 85px;
 }
 .edu2_training_wrap h2{
 	font-weight: 600;

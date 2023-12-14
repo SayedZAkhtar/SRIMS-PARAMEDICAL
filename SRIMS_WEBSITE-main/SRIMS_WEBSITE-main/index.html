@@ -43,20 +43,64 @@
 		}
 
 		.tops{
-			background-color:rgb(47, 43, 43);
-			height: 35px;
+			background-color:rgb(29, 15, 161);
+			height: 48px;
+
 		}
 
 		.topsin{
 			display: flex;
+		    flex-direction: row-reverse;
+			
 		}
 
 		.ins{
+
+			
 			padding: 8px;
+			
+			font-weight: 250;
+			
+		}
+
+		.ins1{
+			color: white;
+			margin-right:10px;
+			/* background-color:rgb(216, 215, 225); */
+			
+		}
+
+		.recognition{
+			position: relative;
+	        overflow:visible;
+	        background-color: #4291b4;
+		}
+
+		.recognition:before{
+	    content: "";
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+	    background-color: #13214a;
+        opacity: 0.85;
 		}
 
 		.rec{
-			font-weight: 600;
+			
+			text-align: center;
+			
+		}
+
+		.card{
+			height: 150px;
+		}
+
+		.rec1{
+			color: white;
+			
+			text-align: center;
 		}
 
 	</style>
@@ -80,11 +124,11 @@
 				<div class="tops">
 					<div class="topsin">
 						
-							<div class="ins"><a href="#"><i class="fa fa-envelope"></i> srims@setgoi.ac.in</a></div>
-							<div class="ins"><a href="#"><i class="fa fa-phone-square"></i> +91-9817877877(hospital)</a></div>
-							<div class="ins"><a href="#"><i class="fa fa-phone-square"></i> +91-7676750000(medical college)</a></div>
-						  
-				    </div>
+						<div class="ins"><a class="ins1" href="#"> srims@setgoi.ac.in</a></div>
+						<div class="ins"><a class="ins1" href="#"> +91-9817877877 (hospital)</a></div>
+						<div class="ins"><a class="ins1" href="#"> +91-7676750000 (medical college)</a></div>
+					  
+				</div>
 			    </div>
 				
 
@@ -308,7 +352,7 @@
 							<!-- <span>The Best Learning Institution</span> -->
 							<!-- <h1 class="text-js">Look mum, I'm typing!</h1> -->
 							<h2>SRI RAMKRISHNA INSTITUTE OF MEDICAL SCIENCES<br> AND SANAKA HOSPITALS</h2>
-							<h1 class="para">Paramedical</h1>
+							<!-- <h1 class="para">Paramedical</h1> -->
 							<p>We Believe there is nothing more important than Education.</p>
 							<a href="about.html" class="btn-1">read more</a>
 						</figcaption>
@@ -368,7 +412,7 @@
 							<div class="kf_cur_catg_des color-1">
 
 								<div class="kf_cur_catg_capstion">
-									<h5 style="    font-weight: 700;">AFFILIATED AND APPROVED BY : State Medical Faculty of West Bengal.</h5>
+									<h5 style="font-weight: 700;">AFFILIATED AND APPROVED BY : State Medical Faculty of West Bengal.</h5>
 									<p>Shri Ramakrishna Institute of Medical Sciences located in Durgapur with 51+ acres campus.</p>
 								</div>
 							</div>
@@ -429,7 +473,7 @@
 						<!-- HEADING 1 START-->
 						<div class="col-md-12">
 							<div class="kf_edu2_heading1">
-								<h3>Departments</h3>
+								<h3>Facilities</h3>
 							</div>
 						</div>
 						<!-- HEADING 1 END-->
@@ -448,10 +492,10 @@
                                                     <figure>
                                                         <figcaption><a href="community-medicine.html">See More</a></figcaption>
                                                     </figure>
-                                                    <div class="edu2_cur_des">
+                                                    <div class="edu2_cur_des card">
                                                         <!-- <span>$20</span> -->
                                                         <h5><a href="#"></a>Robotic RT-PCR Lab</h5>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque possimus facilis, dolorem distinctio mollitia qui ipsam cum dolores nesciunt quaerat suscipit laudantium sequi quo expedita minima. Nihil, illum quos.</p>
+														
                                                     </div>
                                                     
                                                 </div>
@@ -463,11 +507,11 @@
                                                     <figure>
                                                         <figcaption><a href="anotomy.html">See More</a></figcaption>
                                                     </figure>
-                                                    <div class="edu2_cur_des">
+                                                    <div class="edu2_cur_des card">
                                                         <h5><a href="#"><div>Medical ICU</div>
 															</a>
 														</h5>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque possimus facilis, dolorem distinctio mollitia qui ipsam cum dolores nesciunt quaerat suscipit laudantium sequi quo expedita minima. Nihil, illum quos.</p>
+														
                                                     </div>
                                                 </div>
                                             </div>
@@ -478,11 +522,11 @@
                                                     <figure>
                                                         <figcaption><a href="anotomy.html">See More</a></figcaption>
                                                     </figure>
-                                                    <div class="edu2_cur_des">
+                                                    <div class="edu2_cur_des card">
                                                         <h5><a href="#"><div>Surgical ICU</div>
 															</a>
 														</h5>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque possimus facilis, dolorem distinctio mollitia qui ipsam cum dolores nesciunt quaerat suscipit laudantium sequi quo expedita minima. Nihil, illum quos.</p>
+														
                                                     </div>
                                                 </div>
                                             </div>
@@ -492,11 +536,11 @@
                                                     <figure>
                                                         <figcaption><a href="anotomy.html">See More</a></figcaption>
                                                     </figure>
-                                                    <div class="edu2_cur_des">
+                                                    <div class="edu2_cur_des card">
                                                         <h5><a href="#"><div>Neonatal ICU</div>
 															</a>
 														</h5>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque possimus facilis, dolorem distinctio mollitia qui ipsam cum dolores nesciunt quaerat suscipit laudantium sequi quo expedita minima. Nihil, illum quos.</p>
+														
                                                     </div>
                                                 </div>
                                             </div>
@@ -510,11 +554,11 @@
                                                     <figure>
                                                         <figcaption><a href="anotomy.html">See More</a></figcaption>
                                                     </figure>
-                                                    <div class="edu2_cur_des">
+                                                    <div class="edu2_cur_des card">
                                                         <h5><a href="#"><div>GEflatpanel Cath Lab </div>
 															</a>
 														</h5>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque possimus facilis, dolorem distinctio mollitia qui ipsam cum dolores nesciunt quaerat suscipit laudantium sequi quo expedita minima. Nihil, illum quos.</p>
+														
                                                     </div>
                                                 </div>
                                             </div>
@@ -525,11 +569,11 @@
                                                     <figure>
                                                         <figcaption><a href="anotomy.html">See More</a></figcaption>
                                                     </figure>
-                                                    <div class="edu2_cur_des">
+                                                    <div class="edu2_cur_des card">
                                                         <h5><a href="#"><div>Modular OT</div>
 															</a>
 														</h5>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque possimus facilis, dolorem distinctio mollitia qui ipsam cum dolores nesciunt quaerat suscipit laudantium sequi quo expedita minima. Nihil, illum quos.</p>
+														
                                                     </div>
                                                 </div>
                                             </div>
@@ -538,11 +582,11 @@
                                                     <figure>
                                                         <figcaption><a href="anotomy.html">See More</a></figcaption>
                                                     </figure>
-                                                    <div class="edu2_cur_des">
+                                                    <div class="edu2_cur_des card">
                                                         <h5><a href="#"><div>Histopathology with Immunohistochemistry</div>
 															</a>
 														</h5>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque possimus facilis, dolorem distinctio mollitia qui ipsam cum dolores nesciunt quaerat suscipit laudantium sequi quo expedita minima. Nihil, illum quos.</p>
+														
                                                     </div>
                                                 </div>
                                             </div>
@@ -551,11 +595,11 @@
                                                     <figure>
                                                         <figcaption><a href="anotomy.html">See More</a></figcaption>
                                                     </figure>
-                                                    <div class="edu2_cur_des">
+                                                    <div class="edu2_cur_des card">
                                                         <h5><a href="#"><div>Bronchoscopy</div>
 															</a>
 														</h5>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque possimus facilis, dolorem distinctio mollitia qui ipsam cum dolores nesciunt quaerat suscipit laudantium sequi quo expedita minima. Nihil, illum quos.</p>
+														
                                                     </div>
                                                 </div>
                                             </div>
@@ -570,11 +614,11 @@
                                                     <figure>
                                                         <figcaption><a href="anotomy.html">See More</a></figcaption>
                                                     </figure>
-                                                    <div class="edu2_cur_des">
+                                                    <div class="edu2_cur_des card">
                                                         <h5><a href="#"><div>Bronchoscopy </div>
 															</a>
 														</h5>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque possimus facilis, dolorem distinctio mollitia qui ipsam cum dolores nesciunt quaerat suscipit laudantium sequi quo expedita minima. Nihil, illum quos.</p>
+														
                                                     </div>
                                                 </div>
                                             </div>
@@ -585,11 +629,11 @@
                                                     <figure>
                                                         <figcaption><a href="anotomy.html">See More</a></figcaption>
                                                     </figure>
-                                                    <div class="edu2_cur_des">
+                                                    <div class="edu2_cur_des card">
                                                         <h5><a href="#"><div>1.5 TeslaMRI</div>
 															</a>
 														</h5>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque possimus facilis, dolorem distinctio mollitia qui ipsam cum dolores nesciunt quaerat suscipit laudantium sequi quo expedita minima. Nihil, illum quos.</p>
+														
                                                     </div>
                                                 </div>
                                             </div>
@@ -598,11 +642,11 @@
                                                     <figure>
                                                         <figcaption><a href="anotomy.html">See More</a></figcaption>
                                                     </figure>
-                                                    <div class="edu2_cur_des">
+                                                    <div class="edu2_cur_des card">
                                                         <h5><a href="#"><div>	PETCT</div>
 															</a>
 														</h5>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque possimus facilis, dolorem distinctio mollitia qui ipsam cum dolores nesciunt quaerat suscipit laudantium sequi quo expedita minima. Nihil, illum quos.</p>
+														
                                                     </div>
                                                 </div>
                                             </div>
@@ -673,23 +717,22 @@
 		
 
 			<!--TRAINING WRAP START-->
-			<section class="edu2_tarining_bg">
+			<section class="recognition">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6">
+						<!-- <div class="col-md-6"> -->
 							<!-- <div class="kf_edu2_training_des">
 								<figure>
 									<img src="images/dctr.png" alt=""/>
 								</figure>
 							</div> -->
-						</div>
+						<!-- </div> -->
 
-						<div class="col-md-6 rec">
-							<div class="edu2_training_wrap">
-                                  <p class="rec">Recognition Letter</p>
-								  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore libero excepturi nobis iste eos animi adipisci explicabo qui repudiandae, pariatur amet laudantium. Deleniti distinctio quas id dolorum? Numquam, iste error!</p>
+						<div class="col-md-12">
+							<div class="edu2_training_wrap rec">
+                                  <h2 class="rec1">Download Recognition Letter</h2>
 								  <br>
-								  <button class="btn-7"><b>Download</b></button>
+								  <a class="btn-7"><b class="rec1">Download here</b></a>
 							</div>
 						</div>
 					</div>
