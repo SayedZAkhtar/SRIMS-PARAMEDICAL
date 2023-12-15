@@ -1134,7 +1134,7 @@ section,
 	background-color: transparent; 
   }
   .accordion:after {
-    content: '\f107';
+    /* content: '\f107'; */
     color: #022576;
     font-weight: bold;
  
@@ -1147,7 +1147,7 @@ section,
     /* vertical-align: bottom; */
     text-align: center;
     font-size: 27px;
-    font-family: 'FontAwesome';
+    /* font-family: 'FontAwesome'; */
 }
 .accordion.active:after {
     content: "\f106";

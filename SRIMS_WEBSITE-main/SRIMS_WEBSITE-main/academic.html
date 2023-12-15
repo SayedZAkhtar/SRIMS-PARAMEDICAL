@@ -38,6 +38,12 @@
 	<!-- SIDE MENU -->
 	<link rel="stylesheet" href="css/jquery.sidr.dark.css">
 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+
+   
+
+
 	<style>
 		.inner{
 			
@@ -96,6 +102,30 @@
 			/* background-color:rgb(216, 215, 225); */
 			
 		}
+
+		.accordion-button{
+        
+        height: 70px;
+        background-color: rgb(15, 124, 158);
+      }
+
+
+      .accordion-item
+      {
+        border: none;
+      }
+
+	  .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 19px;
+	font-size: 16px;
+}
+
+.accordion-body {
+    font-size: medium;
+}
+
+
+
 	</style>
 
 </head>
@@ -360,162 +390,178 @@
         <!--Banner Wrap End-->
 		<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/scroll-top.gif" alt=""></button>
     	<!--Content Wrap Start-->
-    	<div class="out">
-			<div class="row">
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma in Medical Laboratory Technology </strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>DMLT [ Tech] :[Pathology, Microbiology & Biochemistry] 2 years + 6 months (Six Months) compulsory post examination training.</p>
-						<br><br>
-					</details>
-					<br><br>
+    	<section class="outer">
+
+			<div class="row accordion accordion-flush mt-3" id="accordionFlushExample">
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-headingOne">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+					  Diploma in Medical Laboratory Technology [Pathology, Microbiology & Biochemistry] : 
+					</button>
+				  </h2>
+				  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body"> DMLT [ Tech] : 2 years + 6 months (Six Months) compulsory post examination training. </div>
+				  </div>
+				</div>
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-headingTwo">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+					  Diploma in Radiography [ Diagnostic ] : 
+					</button>
+				  </h2>
+				  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">DRD [ Tech ] : 2 years + 6 months (Six Months) compulsory post examination training.  </div>
+				  </div>
+				</div>
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-headingThree">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+					  Diploma in Physiotherapy : 
+					</button>
+				  </h2>
+				  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">DPT : 2 years + 6 months (Six Months) compulsory post examination training.  </div>
+				  </div>
 				</div>
 	
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma in Radiography [ Diagnostic ] </strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>DRD [ Tech ] : 2 years + 6 months (Six Months) compulsory post examination training.  </p>
-						<br><br>
-					</details>
-					<br><br>
-				</div>
 	
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma in Physiotherapy </strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>DPT : 2 years + 6 months (Six Months) compulsory post examination training.  </p>
-						<br><br>
-					</details>
-					<br><br>
-				</div>
-			</div>
-
-
-
-			
-			<div class="row">
-                <div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma in Radiotherapeutic Technology</strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>DRT [ Tech ] : 2 years + 6 months (Six Months) compulsory post examination training.  </p>
-						<br><br>
-					</details>
-					<br><br>
-				</div>
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma in Optometry with Ophthalmic Technique </strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>D.OPT : 2 years + 6 months (Six Months) compulsory post examination training.  </p>
-						<br><br>
-					</details>
-					<br><br>
-				</div>
+			  </div>
+			  <br><br><br>
 	
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma in Neuro Electro Physiology</strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>DNEP: 2 years + 6 months (Six Months) compulsory post examination training.   </p>
-						<br><br>
-					</details>
-					<br><br>
+			  <div class="row accordion accordion-flush mt-3" id="accordionFlushExample">
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-headingFour">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+					  Diploma in Radiotherapeutic Technology : 
+					</button>
+				  </h2>
+				  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">DRT [ Tech ] : 2 years + 6 months (Six Months) compulsory post examination training.  </div>
+				  </div>
 				</div>
-			</div>
-
-
-
-			<div class="row">
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma in Perfusion Technology</strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>: DPFT : 2 years + 6 months (Six Months) compulsory post examination training.    </p>
-						<br><br>
-					</details>
-					<br><br>
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-headingTwo">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+					  Diploma in Optometry with Ophthalmic Technique :
+					</button>
+				  </h2>
+				  <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">D.OPT : 2 years + 6 months (Six Months) compulsory post examination training.  </div>
+				  </div>
 				</div>
-
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma in Cath-Lab Technician </strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>DCLT : 2 years + 6 months (Six Months) compulsory post examination training. S</p>
-						<br><br>
-					</details>
-					<br><br>
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-headingSix">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+					  Diploma in Neuro Electro Physiology:
+					</button>
+				  </h2>
+				  <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">DNEP: 2 years + 6 months (Six Months) compulsory post examination training.  </div>
+				  </div>
 				</div>
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma in Dialysis Technique </strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>: Dialysis Technician : 2 years + 6 months (Six Months) compulsory post examination training.  </p>
-						<br><br>
-					</details>
-					<br><br>
-				</div>
-			</div>
 	
 				
-
-
-			<div class="row">
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma in Critical Care Technology </strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>DCCT : 2 years + 6 months (Six Months) compulsory post examination training. </p>
-						<br><br>
-					</details>
-					<br><br>
+			  </div>
+			  <br><br><br>
+	
+	
+	
+			  <div class="row accordion accordion-flush mt-3" id="accordionFlushExample">
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-headingSeven">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+					  Diploma in Perfusion Technology: 
+					</button>
+				  </h2>
+				  <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">DPFT : 2 years + 6 months (Six Months) compulsory post examination training.  </div>
+				  </div>
+				</div>
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-headingEight">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+					  Diploma in Cath-Lab Technician : 
+					</button>
+				  </h2>
+				  <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">DCLT : 2 years + 6 months (Six Months) compulsory post examination training. </div>
+				  </div>
+				</div>
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-headingNine">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+					  Diploma in Dialysis Technique : 
+					</button>
+				  </h2>
+				  <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">Dialysis Technician : 2 years + 6 months (Six Months) compulsory post examination training.  </div>
+				  </div>
 				</div>
 	
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma In Operation Theatre Technology </strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>DOTT : 2 years + 6 months (Six Months) compulsory post examination training. </p>
-						<br><br>
-					</details>
-					<br><br>
-				</div>
-
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma In Diabetes Care Technology </strong></summary>
-						<img src="" height="160" width="200" alt="">
-	                    <p>DDCT : 2 years + 6 months (Six Months) compulsory post examination training.  </p>
-						<br><br>
-					</details>
-					<br><br>
-				</div>
-			</div>
+				
+			  </div>
+			  <br><br><br>
 
 
-			<div class="row">
-				<div class="col-md-4 inner">
-					<details>
-						<summary class="sum"><strong>Diploma In Electrocardiographic Technique </strong></summary>
-						<img src="" height="160" width="200" alt="">
-						<p>ECG Technician : 2 years + 6 months (Six Months) compulsory post examination training. </p>
-						<br><br>
-					</details>
-					<br><br>
+			  <div class="row accordion accordion-flush mt-3" id="accordionFlushExample">
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-heading10">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+						Diploma in Critical Care Technology : 
+					</button>
+				  </h2>
+				  <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">DCCT : 2 years + 6 months (Six Months) compulsory post examination training.  </div>
+				  </div>
 				</div>
-				<div class="col-md-4">
-					
-					
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-heading11">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+						Diploma In Operation Theatre Technology 
+					</button>
+				  </h2>
+				  <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">DOTT : 2 years + 6 months (Six Months) compulsory post examination training.  </div>
+				  </div>
 				</div>
-				<div class="col-md-4">
-					
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-heading12">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+						Diploma In Diabetes Care Technology :  
+					</button>
+				  </h2>
+				  <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading12" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">DDCT : 2 years + 6 months (Six Months) compulsory post examination training.    </div>
+				  </div>
 				</div>
+	
+				
+			  </div>
+			  <br><br><br>
 
-			</div>
-		</div>
+			  <div class="row accordion accordion-flush mt-3" id="accordionFlushExample">
+				<div class="col-md-4 accordion-item">
+				  <h2 class="accordion-header" id="flush-heading13">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+						Diploma In Electrocardiographic Technique : 
+					</button>
+				  </h2>
+				  <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">ECG Technician : 2 years + 6 months (Six Months) compulsory post examination training.  </div>
+				  </div>
+				</div>
+				<div class="col-md-4 accordion-item">
+				 
+				</div>
+				<div class="col-md-4 accordion-item">
+				  
+				</div>
+	
+				
+			  </div>
+			  <br><br><br>
+	
+		</section>
 
 
 					
@@ -661,6 +707,10 @@
 	<script src="js/jquery.sidr.min.js"></script>
 	<!--Custom JavaScript-->
 	<script src="js/custom.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
 
     
 </body>
